@@ -1,0 +1,328 @@
+2023-07-18 15:03:42,509 +1000 [main] DEBUG (?:?) - Using io.vertx.core.logging.SLF4JLogDelegateFactory
+2023-07-18 15:03:42,548 +1000 [main] DEBUG (InternalLoggerFactory.java:63) - Using SLF4J as the default logging framework
+2023-07-18 15:03:42,552 +1000 [main] DEBUG (PlatformDependent0.java:497) - -Dio.netty.noUnsafe: false
+2023-07-18 15:03:42,552 +1000 [main] DEBUG (PlatformDependent0.java:1001) - Java version: 11
+2023-07-18 15:03:42,554 +1000 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-07-18 15:03:42,555 +1000 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-07-18 15:03:42,555 +1000 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-07-18 15:03:42,556 +1000 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-07-18 15:03:42,556 +1000 [main] DEBUG (PlatformDependent0.java:321) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-07-18 15:03:42,557 +1000 [main] DEBUG (PlatformDependent0.java:386) - java.nio.Bits.unaligned: available, true
+2023-07-18 15:03:42,558 +1000 [main] DEBUG (PlatformDependent0.java:453) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6ddf90b0
+2023-07-18 15:03:42,559 +1000 [main] DEBUG (PlatformDependent0.java:483) - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-07-18 15:03:42,560 +1000 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-07-18 15:03:42,574 +1000 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4183818240 bytes (maybe)
+2023-07-18 15:03:42,575 +1000 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2023-07-18 15:03:42,575 +1000 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-07-18 15:03:42,577 +1000 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-07-18 15:03:42,577 +1000 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-07-18 15:03:42,578 +1000 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-07-18 15:03:42,578 +1000 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-07-18 15:03:42,592 +1000 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-07-18 15:03:42,593 +1000 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-07-18 15:03:42,614 +1000 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2023-07-18 15:03:42,625 +1000 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-07-18 15:03:42,632 +1000 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-07-18 15:03:42,632 +1000 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-07-18 15:03:42,637 +1000 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-07-18 15:03:42,637 +1000 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-07-18 15:03:42,643 +1000 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-07-18 15:03:42,688 +1000 [main] DEBUG (DefaultDnsServerAddressStreamProvider.java:82) - Default DNS servers: [/127.0.0.53:53] (sun.net.dns.ResolverConfiguration)
+2023-07-18 15:03:42,691 +1000 [main] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-07-18 15:03:42,692 +1000 [main] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-07-18 15:03:42,693 +1000 [main] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2023-07-18 15:03:42,694 +1000 [main] DEBUG (NetUtil.java:188) - /proc/sys/net/core/somaxconn: 4096
+2023-07-18 15:03:42,703 +1000 [main] DEBUG (DnsNameResolver.java:135) - Default ResolvedAddressTypes: IPV4_ONLY
+2023-07-18 15:03:42,703 +1000 [main] DEBUG (DnsNameResolver.java:136) - Localhost address: localhost/127.0.0.1
+2023-07-18 15:03:42,704 +1000 [main] DEBUG (DnsNameResolver.java:145) - Windows hostname: null
+2023-07-18 15:03:42,705 +1000 [main] DEBUG (DnsNameResolver.java:158) - Default search domains: [.]
+2023-07-18 15:03:42,706 +1000 [main] DEBUG (DnsNameResolver.java:167) - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2023-07-18 15:03:42,712 +1000 [main] DEBUG (DefaultHostsFileEntriesResolver.java:53) - -Dio.netty.hostsFileRefreshInterval: 0
+2023-07-18 15:03:46,606 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3856 ms, time limit is 3500 ms
+2023-07-18 15:03:46,607 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 3856 ms, time limit is 3500 ms
+2023-07-18 15:03:47,106 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4356 ms, time limit is 3500 ms
+2023-07-18 15:03:47,107 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4356 ms, time limit is 3500 ms
+2023-07-18 15:03:47,606 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4855 ms, time limit is 3500 ms
+2023-07-18 15:03:47,606 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4856 ms, time limit is 3500 ms
+2023-07-18 15:03:47,751 +1000 [vert.x-eventloop-thread-1] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:03:47,751 +1000 [vert.x-eventloop-thread-0] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:03:51,607 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3854 ms, time limit is 3500 ms
+2023-07-18 15:03:51,607 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 3854 ms, time limit is 3500 ms
+2023-07-18 15:03:52,107 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4353 ms, time limit is 3500 ms
+2023-07-18 15:03:52,107 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4353 ms, time limit is 3500 ms
+2023-07-18 15:03:52,607 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4854 ms, time limit is 3500 ms
+2023-07-18 15:03:52,608 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4854 ms, time limit is 3500 ms
+2023-07-18 15:03:52,753 +1000 [vert.x-eventloop-thread-1] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:03:52,753 +1000 [vert.x-eventloop-thread-0] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:03:52,755 +1000 [vert.x-eventloop-thread-0] INFO  (EventLoopExample.java:24) - completed
+2023-07-18 15:03:52,755 +1000 [vert.x-eventloop-thread-0] INFO  (EventLoopExample.java:25) - success
+2023-07-18 15:04:15,340 +1000 [main] DEBUG (?:?) - Using io.vertx.core.logging.SLF4JLogDelegateFactory
+2023-07-18 15:04:15,379 +1000 [main] DEBUG (InternalLoggerFactory.java:63) - Using SLF4J as the default logging framework
+2023-07-18 15:04:15,381 +1000 [main] DEBUG (PlatformDependent0.java:497) - -Dio.netty.noUnsafe: false
+2023-07-18 15:04:15,382 +1000 [main] DEBUG (PlatformDependent0.java:1001) - Java version: 11
+2023-07-18 15:04:15,383 +1000 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-07-18 15:04:15,384 +1000 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-07-18 15:04:15,384 +1000 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-07-18 15:04:15,384 +1000 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-07-18 15:04:15,385 +1000 [main] DEBUG (PlatformDependent0.java:321) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-07-18 15:04:15,385 +1000 [main] DEBUG (PlatformDependent0.java:386) - java.nio.Bits.unaligned: available, true
+2023-07-18 15:04:15,386 +1000 [main] DEBUG (PlatformDependent0.java:453) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2b2948e2
+2023-07-18 15:04:15,387 +1000 [main] DEBUG (PlatformDependent0.java:483) - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-07-18 15:04:15,387 +1000 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-07-18 15:04:15,397 +1000 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4183818240 bytes (maybe)
+2023-07-18 15:04:15,398 +1000 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2023-07-18 15:04:15,398 +1000 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-07-18 15:04:15,400 +1000 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-07-18 15:04:15,400 +1000 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-07-18 15:04:15,401 +1000 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-07-18 15:04:15,401 +1000 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-07-18 15:04:15,414 +1000 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-07-18 15:04:15,414 +1000 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-07-18 15:04:15,431 +1000 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2023-07-18 15:04:15,438 +1000 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-07-18 15:04:15,443 +1000 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-07-18 15:04:15,443 +1000 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-07-18 15:04:15,447 +1000 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-07-18 15:04:15,448 +1000 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-07-18 15:04:15,453 +1000 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-07-18 15:04:15,494 +1000 [main] DEBUG (DefaultDnsServerAddressStreamProvider.java:82) - Default DNS servers: [/127.0.0.53:53] (sun.net.dns.ResolverConfiguration)
+2023-07-18 15:04:15,498 +1000 [main] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-07-18 15:04:15,498 +1000 [main] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-07-18 15:04:15,499 +1000 [main] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2023-07-18 15:04:15,500 +1000 [main] DEBUG (NetUtil.java:188) - /proc/sys/net/core/somaxconn: 4096
+2023-07-18 15:04:15,512 +1000 [main] DEBUG (DnsNameResolver.java:135) - Default ResolvedAddressTypes: IPV4_ONLY
+2023-07-18 15:04:15,512 +1000 [main] DEBUG (DnsNameResolver.java:136) - Localhost address: localhost/127.0.0.1
+2023-07-18 15:04:15,512 +1000 [main] DEBUG (DnsNameResolver.java:145) - Windows hostname: null
+2023-07-18 15:04:15,515 +1000 [main] DEBUG (DnsNameResolver.java:158) - Default search domains: [.]
+2023-07-18 15:04:15,516 +1000 [main] DEBUG (DnsNameResolver.java:167) - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2023-07-18 15:04:15,522 +1000 [main] DEBUG (DefaultHostsFileEntriesResolver.java:53) - -Dio.netty.hostsFileRefreshInterval: 0
+2023-07-18 15:04:19,425 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3863 ms, time limit is 3500 ms
+2023-07-18 15:04:19,426 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 3863 ms, time limit is 3500 ms
+2023-07-18 15:04:19,925 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4363 ms, time limit is 3500 ms
+2023-07-18 15:04:19,925 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4363 ms, time limit is 3500 ms
+2023-07-18 15:04:20,425 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4863 ms, time limit is 3500 ms
+2023-07-18 15:04:20,425 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4864 ms, time limit is 3500 ms
+2023-07-18 15:04:20,562 +1000 [vert.x-eventloop-thread-1] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:04:20,562 +1000 [vert.x-eventloop-thread-0] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:04:24,426 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3862 ms, time limit is 3500 ms
+2023-07-18 15:04:24,427 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 3862 ms, time limit is 3500 ms
+2023-07-18 15:04:24,926 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4361 ms, time limit is 3500 ms
+2023-07-18 15:04:24,927 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4361 ms, time limit is 3500 ms
+2023-07-18 15:04:25,427 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4862 ms, time limit is 3500 ms
+2023-07-18 15:04:25,427 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4862 ms, time limit is 3500 ms
+2023-07-18 15:04:25,564 +1000 [vert.x-eventloop-thread-0] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:04:25,564 +1000 [vert.x-eventloop-thread-1] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:04:25,566 +1000 [vert.x-eventloop-thread-0] INFO  (EventLoopExample.java:24) - completed
+2023-07-18 15:04:25,567 +1000 [vert.x-eventloop-thread-0] INFO  (EventLoopExample.java:25) - success
+2023-07-18 15:04:33,195 +1000 [main] DEBUG (?:?) - Using io.vertx.core.logging.SLF4JLogDelegateFactory
+2023-07-18 15:04:33,238 +1000 [main] DEBUG (InternalLoggerFactory.java:63) - Using SLF4J as the default logging framework
+2023-07-18 15:04:33,241 +1000 [main] DEBUG (PlatformDependent0.java:497) - -Dio.netty.noUnsafe: false
+2023-07-18 15:04:33,241 +1000 [main] DEBUG (PlatformDependent0.java:1001) - Java version: 11
+2023-07-18 15:04:33,243 +1000 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-07-18 15:04:33,244 +1000 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-07-18 15:04:33,244 +1000 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-07-18 15:04:33,245 +1000 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-07-18 15:04:33,245 +1000 [main] DEBUG (PlatformDependent0.java:321) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-07-18 15:04:33,246 +1000 [main] DEBUG (PlatformDependent0.java:386) - java.nio.Bits.unaligned: available, true
+2023-07-18 15:04:33,246 +1000 [main] DEBUG (PlatformDependent0.java:453) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2b2948e2
+2023-07-18 15:04:33,247 +1000 [main] DEBUG (PlatformDependent0.java:483) - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-07-18 15:04:33,247 +1000 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-07-18 15:04:33,258 +1000 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4183818240 bytes (maybe)
+2023-07-18 15:04:33,259 +1000 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2023-07-18 15:04:33,259 +1000 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-07-18 15:04:33,261 +1000 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-07-18 15:04:33,261 +1000 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-07-18 15:04:33,262 +1000 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-07-18 15:04:33,262 +1000 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-07-18 15:04:33,273 +1000 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-07-18 15:04:33,274 +1000 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-07-18 15:04:33,289 +1000 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2023-07-18 15:04:33,297 +1000 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-07-18 15:04:33,303 +1000 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-07-18 15:04:33,303 +1000 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-07-18 15:04:33,308 +1000 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-07-18 15:04:33,308 +1000 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-07-18 15:04:33,315 +1000 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-07-18 15:04:33,354 +1000 [main] DEBUG (DefaultDnsServerAddressStreamProvider.java:82) - Default DNS servers: [/127.0.0.53:53] (sun.net.dns.ResolverConfiguration)
+2023-07-18 15:04:33,358 +1000 [main] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-07-18 15:04:33,359 +1000 [main] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-07-18 15:04:33,360 +1000 [main] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2023-07-18 15:04:33,360 +1000 [main] DEBUG (NetUtil.java:188) - /proc/sys/net/core/somaxconn: 4096
+2023-07-18 15:04:33,371 +1000 [main] DEBUG (DnsNameResolver.java:135) - Default ResolvedAddressTypes: IPV4_ONLY
+2023-07-18 15:04:33,371 +1000 [main] DEBUG (DnsNameResolver.java:136) - Localhost address: localhost/127.0.0.1
+2023-07-18 15:04:33,371 +1000 [main] DEBUG (DnsNameResolver.java:145) - Windows hostname: null
+2023-07-18 15:04:33,373 +1000 [main] DEBUG (DnsNameResolver.java:158) - Default search domains: [.]
+2023-07-18 15:04:33,373 +1000 [main] DEBUG (DnsNameResolver.java:167) - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2023-07-18 15:04:33,380 +1000 [main] DEBUG (DefaultHostsFileEntriesResolver.java:53) - -Dio.netty.hostsFileRefreshInterval: 0
+2023-07-18 15:04:37,284 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3863 ms, time limit is 3500 ms
+2023-07-18 15:04:37,285 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 3864 ms, time limit is 3500 ms
+2023-07-18 15:04:37,784 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4363 ms, time limit is 3500 ms
+2023-07-18 15:04:37,784 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4364 ms, time limit is 3500 ms
+2023-07-18 15:04:38,284 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4863 ms, time limit is 3500 ms
+2023-07-18 15:04:38,284 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4863 ms, time limit is 3500 ms
+2023-07-18 15:04:38,421 +1000 [vert.x-eventloop-thread-1] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:04:38,421 +1000 [vert.x-eventloop-thread-0] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:04:42,285 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3861 ms, time limit is 3500 ms
+2023-07-18 15:04:42,285 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 3861 ms, time limit is 3500 ms
+2023-07-18 15:04:42,785 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4361 ms, time limit is 3500 ms
+2023-07-18 15:04:42,785 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4361 ms, time limit is 3500 ms
+2023-07-18 15:04:43,286 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4862 ms, time limit is 3500 ms
+2023-07-18 15:04:43,286 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4862 ms, time limit is 3500 ms
+2023-07-18 15:04:43,424 +1000 [vert.x-eventloop-thread-1] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:04:43,424 +1000 [vert.x-eventloop-thread-0] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:04:43,425 +1000 [vert.x-eventloop-thread-0] INFO  (EventLoopExample.java:24) - completed
+2023-07-18 15:04:43,425 +1000 [vert.x-eventloop-thread-0] INFO  (EventLoopExample.java:25) - success
+2023-07-18 15:04:54,846 +1000 [main] DEBUG (?:?) - Using io.vertx.core.logging.SLF4JLogDelegateFactory
+2023-07-18 15:04:54,900 +1000 [main] DEBUG (InternalLoggerFactory.java:63) - Using SLF4J as the default logging framework
+2023-07-18 15:04:54,902 +1000 [main] DEBUG (PlatformDependent0.java:497) - -Dio.netty.noUnsafe: false
+2023-07-18 15:04:54,903 +1000 [main] DEBUG (PlatformDependent0.java:1001) - Java version: 11
+2023-07-18 15:04:54,904 +1000 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-07-18 15:04:54,905 +1000 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-07-18 15:04:54,905 +1000 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-07-18 15:04:54,905 +1000 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-07-18 15:04:54,906 +1000 [main] DEBUG (PlatformDependent0.java:321) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-07-18 15:04:54,906 +1000 [main] DEBUG (PlatformDependent0.java:386) - java.nio.Bits.unaligned: available, true
+2023-07-18 15:04:54,907 +1000 [main] DEBUG (PlatformDependent0.java:453) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @210366b4
+2023-07-18 15:04:54,908 +1000 [main] DEBUG (PlatformDependent0.java:483) - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-07-18 15:04:54,908 +1000 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-07-18 15:04:54,919 +1000 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4183818240 bytes (maybe)
+2023-07-18 15:04:54,919 +1000 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2023-07-18 15:04:54,919 +1000 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-07-18 15:04:54,920 +1000 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-07-18 15:04:54,921 +1000 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-07-18 15:04:54,921 +1000 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-07-18 15:04:54,921 +1000 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-07-18 15:04:54,934 +1000 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-07-18 15:04:54,934 +1000 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-07-18 15:04:54,950 +1000 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2023-07-18 15:04:54,957 +1000 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-07-18 15:04:54,964 +1000 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-07-18 15:04:54,964 +1000 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-07-18 15:04:54,970 +1000 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-07-18 15:04:54,971 +1000 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-07-18 15:04:54,976 +1000 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-07-18 15:04:55,022 +1000 [main] DEBUG (DefaultDnsServerAddressStreamProvider.java:82) - Default DNS servers: [/127.0.0.53:53] (sun.net.dns.ResolverConfiguration)
+2023-07-18 15:04:55,028 +1000 [main] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-07-18 15:04:55,029 +1000 [main] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-07-18 15:04:55,031 +1000 [main] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2023-07-18 15:04:55,032 +1000 [main] DEBUG (NetUtil.java:188) - /proc/sys/net/core/somaxconn: 4096
+2023-07-18 15:04:55,046 +1000 [main] DEBUG (DnsNameResolver.java:135) - Default ResolvedAddressTypes: IPV4_ONLY
+2023-07-18 15:04:55,046 +1000 [main] DEBUG (DnsNameResolver.java:136) - Localhost address: localhost/127.0.0.1
+2023-07-18 15:04:55,046 +1000 [main] DEBUG (DnsNameResolver.java:145) - Windows hostname: null
+2023-07-18 15:04:55,048 +1000 [main] DEBUG (DnsNameResolver.java:158) - Default search domains: [.]
+2023-07-18 15:04:55,050 +1000 [main] DEBUG (DnsNameResolver.java:167) - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2023-07-18 15:04:55,058 +1000 [main] DEBUG (DefaultHostsFileEntriesResolver.java:53) - -Dio.netty.hostsFileRefreshInterval: 0
+2023-07-18 15:04:58,944 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 3833 ms, time limit is 3500 ms
+2023-07-18 15:04:58,947 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3832 ms, time limit is 3500 ms
+2023-07-18 15:04:59,444 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4333 ms, time limit is 3500 ms
+2023-07-18 15:04:59,445 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4333 ms, time limit is 3500 ms
+2023-07-18 15:04:59,944 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4833 ms, time limit is 3500 ms
+2023-07-18 15:04:59,944 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4833 ms, time limit is 3500 ms
+2023-07-18 15:05:00,112 +1000 [vert.x-eventloop-thread-0] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:05:00,112 +1000 [vert.x-eventloop-thread-1] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:05:03,942 +1000 [main] DEBUG (?:?) - Using io.vertx.core.logging.SLF4JLogDelegateFactory
+2023-07-18 15:05:03,994 +1000 [main] DEBUG (InternalLoggerFactory.java:63) - Using SLF4J as the default logging framework
+2023-07-18 15:05:03,998 +1000 [main] DEBUG (PlatformDependent0.java:497) - -Dio.netty.noUnsafe: false
+2023-07-18 15:05:03,998 +1000 [main] DEBUG (PlatformDependent0.java:1001) - Java version: 11
+2023-07-18 15:05:04,000 +1000 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-07-18 15:05:04,001 +1000 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-07-18 15:05:04,002 +1000 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-07-18 15:05:04,002 +1000 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-07-18 15:05:04,003 +1000 [main] DEBUG (PlatformDependent0.java:321) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-07-18 15:05:04,004 +1000 [main] DEBUG (PlatformDependent0.java:386) - java.nio.Bits.unaligned: available, true
+2023-07-18 15:05:04,005 +1000 [main] DEBUG (PlatformDependent0.java:453) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @210366b4
+2023-07-18 15:05:04,006 +1000 [main] DEBUG (PlatformDependent0.java:483) - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-07-18 15:05:04,007 +1000 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-07-18 15:05:04,021 +1000 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4183818240 bytes (maybe)
+2023-07-18 15:05:04,021 +1000 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2023-07-18 15:05:04,022 +1000 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-07-18 15:05:04,023 +1000 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-07-18 15:05:04,024 +1000 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-07-18 15:05:04,025 +1000 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-07-18 15:05:04,025 +1000 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-07-18 15:05:04,039 +1000 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-07-18 15:05:04,039 +1000 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-07-18 15:05:04,061 +1000 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2023-07-18 15:05:04,069 +1000 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-07-18 15:05:04,074 +1000 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-07-18 15:05:04,075 +1000 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-07-18 15:05:04,079 +1000 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-07-18 15:05:04,079 +1000 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-07-18 15:05:04,085 +1000 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-07-18 15:05:04,123 +1000 [main] DEBUG (DefaultDnsServerAddressStreamProvider.java:82) - Default DNS servers: [/127.0.0.53:53] (sun.net.dns.ResolverConfiguration)
+2023-07-18 15:05:04,127 +1000 [main] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-07-18 15:05:04,127 +1000 [main] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-07-18 15:05:04,128 +1000 [main] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2023-07-18 15:05:04,128 +1000 [main] DEBUG (NetUtil.java:188) - /proc/sys/net/core/somaxconn: 4096
+2023-07-18 15:05:04,142 +1000 [main] DEBUG (DnsNameResolver.java:135) - Default ResolvedAddressTypes: IPV4_ONLY
+2023-07-18 15:05:04,142 +1000 [main] DEBUG (DnsNameResolver.java:136) - Localhost address: localhost/127.0.0.1
+2023-07-18 15:05:04,142 +1000 [main] DEBUG (DnsNameResolver.java:145) - Windows hostname: null
+2023-07-18 15:05:04,145 +1000 [main] DEBUG (DnsNameResolver.java:158) - Default search domains: [.]
+2023-07-18 15:05:04,146 +1000 [main] DEBUG (DnsNameResolver.java:167) - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2023-07-18 15:05:04,154 +1000 [main] DEBUG (DefaultHostsFileEntriesResolver.java:53) - -Dio.netty.hostsFileRefreshInterval: 0
+2023-07-18 15:05:08,053 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 3846 ms, time limit is 3500 ms
+2023-07-18 15:05:08,053 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3847 ms, time limit is 3500 ms
+2023-07-18 15:05:08,553 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4347 ms, time limit is 3500 ms
+2023-07-18 15:05:08,553 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4347 ms, time limit is 3500 ms
+2023-07-18 15:05:09,053 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4847 ms, time limit is 3500 ms
+2023-07-18 15:05:09,054 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4847 ms, time limit is 3500 ms
+2023-07-18 15:05:09,206 +1000 [vert.x-eventloop-thread-0] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:05:09,206 +1000 [vert.x-eventloop-thread-1] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:05:12,748 +1000 [main] DEBUG (?:?) - Using io.vertx.core.logging.SLF4JLogDelegateFactory
+2023-07-18 15:05:12,795 +1000 [main] DEBUG (InternalLoggerFactory.java:63) - Using SLF4J as the default logging framework
+2023-07-18 15:05:12,798 +1000 [main] DEBUG (PlatformDependent0.java:497) - -Dio.netty.noUnsafe: false
+2023-07-18 15:05:12,799 +1000 [main] DEBUG (PlatformDependent0.java:1001) - Java version: 11
+2023-07-18 15:05:12,801 +1000 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2023-07-18 15:05:12,802 +1000 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2023-07-18 15:05:12,802 +1000 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2023-07-18 15:05:12,803 +1000 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2023-07-18 15:05:12,804 +1000 [main] DEBUG (PlatformDependent0.java:321) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-07-18 15:05:12,804 +1000 [main] DEBUG (PlatformDependent0.java:386) - java.nio.Bits.unaligned: available, true
+2023-07-18 15:05:12,806 +1000 [main] DEBUG (PlatformDependent0.java:453) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @210366b4
+2023-07-18 15:05:12,807 +1000 [main] DEBUG (PlatformDependent0.java:483) - java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+2023-07-18 15:05:12,807 +1000 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2023-07-18 15:05:12,828 +1000 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4183818240 bytes (maybe)
+2023-07-18 15:05:12,828 +1000 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2023-07-18 15:05:12,828 +1000 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-07-18 15:05:12,830 +1000 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2023-07-18 15:05:12,830 +1000 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-07-18 15:05:12,831 +1000 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2023-07-18 15:05:12,832 +1000 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2023-07-18 15:05:12,843 +1000 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2023-07-18 15:05:12,844 +1000 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2023-07-18 15:05:12,863 +1000 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2023-07-18 15:05:12,873 +1000 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-07-18 15:05:12,880 +1000 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-07-18 15:05:12,880 +1000 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-07-18 15:05:12,887 +1000 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2023-07-18 15:05:12,887 +1000 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-07-18 15:05:12,893 +1000 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2023-07-18 15:05:12,930 +1000 [main] DEBUG (DefaultDnsServerAddressStreamProvider.java:82) - Default DNS servers: [/127.0.0.53:53] (sun.net.dns.ResolverConfiguration)
+2023-07-18 15:05:12,935 +1000 [main] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2023-07-18 15:05:12,935 +1000 [main] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2023-07-18 15:05:12,936 +1000 [main] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2023-07-18 15:05:12,937 +1000 [main] DEBUG (NetUtil.java:188) - /proc/sys/net/core/somaxconn: 4096
+2023-07-18 15:05:12,949 +1000 [main] DEBUG (DnsNameResolver.java:135) - Default ResolvedAddressTypes: IPV4_ONLY
+2023-07-18 15:05:12,949 +1000 [main] DEBUG (DnsNameResolver.java:136) - Localhost address: localhost/127.0.0.1
+2023-07-18 15:05:12,949 +1000 [main] DEBUG (DnsNameResolver.java:145) - Windows hostname: null
+2023-07-18 15:05:12,951 +1000 [main] DEBUG (DnsNameResolver.java:158) - Default search domains: [.]
+2023-07-18 15:05:12,953 +1000 [main] DEBUG (DnsNameResolver.java:167) - Default UnixResolverOptions{ndots=1, timeout=5, attempts=16}
+2023-07-18 15:05:12,959 +1000 [main] DEBUG (DefaultHostsFileEntriesResolver.java:53) - -Dio.netty.hostsFileRefreshInterval: 0
+2023-07-18 15:05:16,857 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3857 ms, time limit is 3500 ms
+2023-07-18 15:05:16,858 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 3857 ms, time limit is 3500 ms
+2023-07-18 15:05:17,356 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4356 ms, time limit is 3500 ms
+2023-07-18 15:05:17,356 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4356 ms, time limit is 3500 ms
+2023-07-18 15:05:17,856 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4857 ms, time limit is 3500 ms
+2023-07-18 15:05:17,857 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4857 ms, time limit is 3500 ms
+2023-07-18 15:05:18,000 +1000 [vert.x-eventloop-thread-1] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:05:18,000 +1000 [vert.x-eventloop-thread-0] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:05:21,857 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 3855 ms, time limit is 3500 ms
+2023-07-18 15:05:21,858 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 3854 ms, time limit is 3500 ms
+2023-07-18 15:05:22,357 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4354 ms, time limit is 3500 ms
+2023-07-18 15:05:22,357 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4354 ms, time limit is 3500 ms
+2023-07-18 15:05:22,857 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 4855 ms, time limit is 3500 ms
+2023-07-18 15:05:22,858 +1000 [vertx-blocked-thread-checker] WARN  (?:?) - Thread Thread[vert.x-eventloop-thread-1,5,main] has been blocked for 4855 ms, time limit is 3500 ms
+2023-07-18 15:05:23,002 +1000 [vert.x-eventloop-thread-0] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:05:23,002 +1000 [vert.x-eventloop-thread-1] ERROR (EventLoopExample.java:34) - done
+2023-07-18 15:05:23,004 +1000 [vert.x-eventloop-thread-0] INFO  (EventLoopExample.java:24) - completed
+2023-07-18 15:05:23,004 +1000 [vert.x-eventloop-thread-0] INFO  (EventLoopExample.java:25) - success

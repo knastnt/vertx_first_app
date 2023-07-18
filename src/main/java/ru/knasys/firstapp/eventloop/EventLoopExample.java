@@ -1,8 +1,8 @@
 package ru.knasys.firstapp.eventloop;
 
 import io.vertx.core.*;
-import io.vertx.core.impl.logging.Logger;
-import io.vertx.core.impl.logging.LoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.TimeUnit;
 
@@ -31,6 +31,7 @@ public class EventLoopExample extends AbstractVerticle {
   public void start(Promise<Void> startPromise) throws Exception {
     startPromise.complete();
     Thread.sleep(5000L);
-    System.out.println("done");
+    log.error("done");
+    System.out.println("done?");
   }
 }
