@@ -1,4 +1,4 @@
-package ru.knasys.firstapp._010_event_bus.request_response;
+package ru.knasys.firstapp._010_event_bus;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;
