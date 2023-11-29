@@ -2,20 +2,24 @@ package ru.knasys.firstapp;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;
-import io.vertx.core.Vertx;
+import io.vertx.core.json.JsonArray;
+import io.vertx.core.json.JsonObject;
+import io.vertx.ext.web.Router;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.knasys.firstapp.web.AssetsRestApi;
 
 public class MainVerticle extends AbstractVerticle {
   private static final Logger LOG = LoggerFactory.getLogger(MainVerticle.class);
   @Override
   public void start(Promise<Void> startPromise) throws Exception {
-    Vertx.vertx().createHttpServer()
-      .requestHandler(httpServerRequest -> {
-        LOG.info("Request to http server: {}", httpServerRequest);
-        httpServerRequest.response()
-          .putHeader("content-type", "text/plain")
-          .end("Hello from Vert.x!");
+    final Router restApi = Router.router(vertx);
+    AssetsRestApi.attach(restApi);
+
+    vertx.createHttpServer()
+      .requestHandler(restApi)
+      .exceptionHandler(throwable -> {
+        LOG.error("HTTP Server error:", throwable);
       })
       .listen(8888)
       .onFailure(startPromise::fail)
