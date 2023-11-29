@@ -8,7 +8,8 @@ import io.vertx.core.Vertx;
 import java.time.LocalTime;
 
 public class MainVerticle extends AbstractVerticle {
-  public static void main(String[] args) throws Exception {
+  @Override
+  public void start(Promise<Void> startPromise) throws Exception {
     //exec1();
     exec2();
   }
@@ -38,12 +39,12 @@ public class MainVerticle extends AbstractVerticle {
     Future<Void> two = p2.future();
     Future<Void> three = p3.future();
 
-    Future.all(one, two, three)
+    Future.join(one, two, three)
       .onFailure(event -> System.out.println("!!!!!!!!!!!!!!!!! fail"))
       .onSuccess(event -> System.out.println("!!!!!!!!!!!!!!!!! success"));
 
     p1.complete();
     p2.fail("");
-//    p3.complete();
+    p3.complete();
   }
 }
