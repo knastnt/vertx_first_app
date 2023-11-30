@@ -5,6 +5,7 @@ import io.vertx.core.Promise;
 import io.vertx.ext.web.Router;
 import lombok.extern.slf4j.Slf4j;
 import ru.knasys.firstapp.web.AssetsRestApi;
+import ru.knasys.firstapp.web.QuotesRestApi;
 
 @Slf4j
 public class MainVerticle extends AbstractVerticle {
@@ -13,6 +14,7 @@ public class MainVerticle extends AbstractVerticle {
   public void start(Promise<Void> startPromise) throws Exception {
     final Router restApi = Router.router(vertx);
     AssetsRestApi.attach(restApi);
+    QuotesRestApi.attach(restApi);
 
     vertx.createHttpServer()
       .requestHandler(restApi)

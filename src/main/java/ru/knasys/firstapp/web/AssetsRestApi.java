@@ -16,6 +16,7 @@ public class AssetsRestApi {
         .add(new Asset("NFLX"))
         .add(new Asset("TSLA"));
       log.info("Path {} responds with {}", context.normalizedPath(), response.encodePrettily());
+      context.response().putHeader("content-type", "application/json");
       context.response().end(response.toBuffer());
     })
     .failureHandler(RestFailureHandler.INSTANCE);
