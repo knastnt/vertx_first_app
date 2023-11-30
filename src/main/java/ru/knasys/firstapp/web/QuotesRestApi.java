@@ -1,5 +1,7 @@
 package ru.knasys.firstapp.web;
 
+import io.netty.handler.codec.http.HttpHeaderValues;
+import io.vertx.core.http.HttpHeaders;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.Router;
 import lombok.extern.slf4j.Slf4j;
@@ -26,7 +28,7 @@ public class QuotesRestApi {
 
       JsonObject response = JsonObject.mapFrom(quote);
       log.info("Path {} responds with {}", context.normalizedPath(), response.encodePrettily());
-      context.response().putHeader("content-type", "application/json");
+      context.response().putHeader(HttpHeaders.CONTENT_TYPE, HttpHeaderValues.APPLICATION_JSON);
       context.response().end(response.toBuffer());
     })
     .failureHandler(RestFailureHandler.INSTANCE);
