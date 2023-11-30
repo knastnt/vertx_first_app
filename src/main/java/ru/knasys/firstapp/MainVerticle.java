@@ -11,6 +11,7 @@ import ru.knasys.firstapp.web.AssetsRestApi;
 
 public class MainVerticle extends AbstractVerticle {
   private static final Logger LOG = LoggerFactory.getLogger(MainVerticle.class);
+  public static final int PORT = 8888;
   @Override
   public void start(Promise<Void> startPromise) throws Exception {
     final Router restApi = Router.router(vertx);
@@ -21,7 +22,7 @@ public class MainVerticle extends AbstractVerticle {
       .exceptionHandler(throwable -> {
         LOG.error("HTTP Server error:", throwable);
       })
-      .listen(8888)
+      .listen(PORT)
       .onFailure(startPromise::fail)
       .onSuccess(httpServer -> {
         LOG.debug("Http server started. Listening on port: {}", httpServer.actualPort());

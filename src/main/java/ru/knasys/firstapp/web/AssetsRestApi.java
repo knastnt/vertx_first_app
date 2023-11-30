@@ -20,7 +20,6 @@ public class AssetsRestApi {
         .add(new Asset("NFLX"))
         .add(new Asset("TSLA"));
       LOG.info("Path {} responds with {}", context.normalizedPath(), response.encodePrettily());
-      if (true) throw new RuntimeException("dswdwdwdwdwdwdwdwdwd");
       context.response().end(response.toBuffer());
     })
     .failureHandler(RestFailureHandler.INSTANCE);
