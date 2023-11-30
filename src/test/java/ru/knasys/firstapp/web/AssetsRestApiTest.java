@@ -14,19 +14,18 @@ import io.vertx.ext.web.client.WebClient;
 import io.vertx.ext.web.client.WebClientOptions;
 import io.vertx.junit5.VertxExtension;
 import io.vertx.junit5.VertxTestContext;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import ru.knasys.firstapp.MainVerticle;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static ru.knasys.firstapp.MainVerticle.PORT;
 
+@Slf4j
 @ExtendWith(VertxExtension.class)
 class AssetsRestApiTest {
-  private static final Logger LOG = LoggerFactory.getLogger(AssetsRestApiTest.class);
 
   @BeforeEach
   void init(Vertx vertx, VertxTestContext context) {
@@ -62,7 +61,7 @@ class AssetsRestApiTest {
     Future<HttpResponse<Buffer>> responseFuture = webClient.get("/assets").send();
     responseFuture.onComplete(context.succeeding(response -> {
       JsonArray json = response.bodyAsJsonArray();
-      LOG.info("Response: {}", json);
+      log.info("Response: {}", json);
       assertEquals("[{\"symbol\":\"AAPL\"},{\"symbol\":\"AMZN\"},{\"symbol\":\"NFLX\"},{\"symbol\":\"TSLA\"}]", json.encode());
       assertEquals(200, response.statusCode());
       context.completeNow();
